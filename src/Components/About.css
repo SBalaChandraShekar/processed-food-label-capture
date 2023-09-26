@@ -1,0 +1,77 @@
+/* Global styles or styles for the entire page can go here */
+
+body {
+    margin: 0; /* Reset default body margin */
+    font-family: 'Pacifico', cursive; /* Set a default font for the entire page */
+  }
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  .image-container {
+    flex: 1;
+    margin-right: 2rem; /* Add some space between the image and content */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the image */
+    border-radius: 10px; /* Rounded corners for the image container */
+    overflow: hidden; /* Hide any overflow content */
+  }
+  
+  img {
+    width: 100%; /* Make the image responsive and fill the container */
+  }
+  
+  .content-container {
+    flex: 1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the content */
+    border-radius: 10px; /* Rounded corners for the content container */
+    background-color: #ffffff; /* White background for the content */
+    padding: 2rem; /* Add some padding to the content */
+  }
+  
+  h1.title {
+    font-family: 'Pacifico', cursive;
+    color: #212529;
+    font-size: 2.5rem;
+    margin-bottom: 1rem; /* Add some space below the title */
+    text-align: center; /* Center align the title */
+  }
+  
+  .form-group.message {
+    margin-bottom: 2rem; /* Add some space below the text area */
+  }
+  
+  .form-control {
+    background-color: #f2f6f8;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+    padding: 1rem 2rem; /* Increase padding for a better appearance */
+    width: 100%; /* Make the text area full width */
+    resize: none; /* Disable textarea resizing */
+  }
+  
+  .btn.btn-primary {
+    font-weight: bold;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding: 0 3rem;
+    border: 0;
+    border-radius: 3rem;
+    background-image: linear-gradient(131deg, #ffd340, #ff923c, #ff923c, #ff923c);
+    background-size: 300% 100%;
+    transition: all 0.3s ease-in-out;
+    display: block; /* Make the button a block element */
+    margin: 0 auto; /* Center the button */
+  }
+  
+  .btn.btn-primary:hover:enabled {
+    box-shadow: 0 0.5em 0.5em -0.4em #ff923cba;
+    background-size: 100% 100%;
+    transform: translateY(-0.15em);
+  }
+  
